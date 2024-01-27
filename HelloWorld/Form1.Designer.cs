@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             btnClickThis = new Button();
+            lblHelloWorld = new Label();
             SuspendLayout();
             // 
             // btnClickThis
@@ -41,19 +42,32 @@
             btnClickThis.UseVisualStyleBackColor = true;
             btnClickThis.Click += button1_Click;
             // 
+            // lblHelloWorld
+            // 
+            lblHelloWorld.AutoSize = true;
+            lblHelloWorld.Location = new Point(357, 244);
+            lblHelloWorld.Name = "lblHelloWorld";
+            lblHelloWorld.Size = new Size(50, 20);
+            lblHelloWorld.TabIndex = 1;
+            lblHelloWorld.Text = "label1";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblHelloWorld);
             Controls.Add(btnClickThis);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button btnClickThis;
+        private Label lblHelloWorld;
     }
 }
