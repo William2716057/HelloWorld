@@ -34,6 +34,7 @@
             // 
             // btnClickThis
             // 
+            btnClickThis.Font = new Font("Wingdings", 9F, FontStyle.Regular, GraphicsUnit.Point, 2);
             btnClickThis.Location = new Point(334, 170);
             btnClickThis.Name = "btnClickThis";
             btnClickThis.Size = new Size(94, 29);
@@ -45,11 +46,12 @@
             // lblHelloWorld
             // 
             lblHelloWorld.AutoSize = true;
+            lblHelloWorld.Font = new Font("Wingdings", 9F, FontStyle.Regular, GraphicsUnit.Point, 2);
             lblHelloWorld.Location = new Point(357, 244);
             lblHelloWorld.Name = "lblHelloWorld";
-            lblHelloWorld.Size = new Size(50, 20);
+            lblHelloWorld.Size = new Size(61, 16);
             lblHelloWorld.TabIndex = 1;
-            lblHelloWorld.Text = "label1";
+            lblHelloWorld.Text = "Text";
             // 
             // Form1
             // 
